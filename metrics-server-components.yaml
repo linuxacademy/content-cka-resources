@@ -90,8 +90,6 @@ spec:
           - --secure-port=4443
           - --kubelet-insecure-tls=true
           - --kubelet-preferred-address-types=InternalIP
-          - --metric-resolution=30s
-          - --requestheader-allowed-names=aggregator
         ports:
         - name: main-port
           containerPort: 4443
